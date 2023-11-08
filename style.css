@@ -1,0 +1,53 @@
+body {
+  background-color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#input-text,
+#voice-select {
+  display: block;
+  width: 600px;
+  border-radius: 10px;
+  background: #fafafc;
+  margin-bottom: 20px;
+  font-size: 18px;
+  outline: none;
+  padding: 8px;
+}
+
+#voice-select {
+  height: 40px;
+}
+
+h1 {
+  color: #fafafa;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  background: #333;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid black;
+}
